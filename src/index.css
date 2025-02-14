@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "QuickSand";
+  src: url(/public/quicksand/Quicksand-Regular.otf) format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

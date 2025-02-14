@@ -1,0 +1,13 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-item {
+    background-color: #282c34;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
