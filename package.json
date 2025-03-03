@@ -14,7 +14,7 @@
     "typescript": "^5.7.3",
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://udirose.github.io/",
+  "homepage": "https://udirose.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
