@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed13271e.css",
+    "main.js": "/static/js/main.d801ca68.js",
+    "static/media/SourceCodePro-Regular.otf": "/static/media/SourceCodePro-Regular.e90ab08d61b15012e1ae.otf",
+    "static/media/background.png": "/static/media/background.25e006ee88a5e8be31a8.png",
+    "static/media/Quicksand-Regular.otf": "/static/media/Quicksand-Regular.1a8cbf2a0b04da5410e2.otf",
+    "static/media/LI-Logo.png": "/static/media/LI-Logo.a95afc06831647f5fca2.png",
+    "index.html": "/index.html",
+    "main.ed13271e.css.map": "/static/css/main.ed13271e.css.map",
+    "main.d801ca68.js.map": "/static/js/main.d801ca68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed13271e.css",
+    "static/js/main.d801ca68.js"
+  ]
+}
