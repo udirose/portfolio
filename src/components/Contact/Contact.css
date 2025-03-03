@@ -1,0 +1,24 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.linkedin-logo {
+    width: 250px;
+    height: auto;
+}
+
+.email-emoji {
+    font-size: 150px;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
