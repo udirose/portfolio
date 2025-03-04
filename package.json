@@ -15,7 +15,7 @@
     "typescript": "^5.7.3",
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://udirose.dev",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

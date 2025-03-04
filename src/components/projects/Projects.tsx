@@ -1,5 +1,6 @@
 import React from 'react';
 import './projects.css';
+import github from '../../images/github.png';
 
 const Projects: React.FC = () => {
     return (
@@ -7,17 +8,24 @@ const Projects: React.FC = () => {
             <h2>Projects</h2>
             <div className="projects-grid">
                 <div className="project-item">
-                    <iframe
-                        frameBorder="0"
-                        src="https://itch.io/embed/3270904?border_width=0&amp;bg_color=000000&amp;fg_color=eeeeee&amp;link_color=fa5c5c&amp;border_color=363636"
-                        width="550"
-                        height="165"
-                        title="powery by UDR"
+                    <a
+                        href="https://github.com/udirose"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                        style={{ backgroundImage: `url(${github})` }}
                     >
-                        <a href="https://udro.itch.io/powery">powery by UDR</a>
-                    </iframe>
+                    </a>
                 </div>
-                {/* Add more project items here */}
+                <div className="project-item">
+                    <a
+                        href="https://udr.games"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                    >
+                    </a>
+                </div>
             </div>
         </section>
     );
