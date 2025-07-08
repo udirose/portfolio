@@ -1,6 +1,7 @@
 import React from 'react';
 import './projects.css';
 import github from '../../images/github.png';
+import udr from '../../images/udr.png';
 
 const Projects: React.FC = () => {
     return (
@@ -23,6 +24,7 @@ const Projects: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="project-link"
+                        style={{ backgroundImage: `url(${udr})` }}
                     >
                     </a>
                 </div>

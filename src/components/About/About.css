@@ -1,14 +1,30 @@
+.about-section {
+  text-align: left;
+}
+
+.about-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  text-indent: 2em;
+}
+
 .typing-effect p {
-    display: inline;
-    border-right: 2px solid;
-    animation: blink-caret 0.75s step-end infinite;
+  display: inline;
+  border-right: 2px solid #f0ead6;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
   }
-  
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: black;
-    }
+  50% {
+    border-color: #f0ead6;
   }
+}

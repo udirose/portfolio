@@ -9,29 +9,18 @@ const TypingEffect: React.FC<TypingEffectProps> = ({ text, speed = 50 }) => {
     const [displayedText, setDisplayedText] = useState('');
 
     useEffect(() => {
+        // Reset displayed text when text prop changes
+        setDisplayedText('');
+
         let index = 0;
-        const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
-
-        // const playKeyPressSound = () => {
-        //     const oscillator = audioContext.createOscillator();
-        //     const gainNode = audioContext.createGain();
-
-        //     oscillator.type = 'sawtooth';
-        //     oscillator.frequency.setValueAtTime(400, audioContext.currentTime); // Frequency in Hz
-        //     gainNode.gain.setValueAtTime(0.05, audioContext.currentTime); // Volume
-
-        //     oscillator.connect(gainNode);
-        //     gainNode.connect(audioContext.destination);
-
-        //     oscillator.start();
-        //     oscillator.stop(audioContext.currentTime + 0.05); // Duration of the sound
-        // };
+        const cleanText = text.trim();
 
         const interval = setInterval(() => {
-            setDisplayedText((prev) => prev + text.charAt(index));
-            // playKeyPressSound();
-            index++;
-            if (index === text.length) {
+            if (index < cleanText.length) {
+                const char = cleanText[index];
+                setDisplayedText((prev) => prev + char);
+                index++;
+            } else {
                 clearInterval(interval);
             }
         }, speed);
