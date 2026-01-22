@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import { getEntry } from "astro:content";
+
+// Load Hero singleton
+const heroEntry = await getEntry("hero", "index");
+---
+
+<Layout
+  title={`${heroEntry?.data.name} - Portfolio`}
+  description={heroEntry?.data.description}
+>
+  <main>
+    {heroEntry?.data && <Hero hero={heroEntry.data} />}
+  </main>
+</Layout>

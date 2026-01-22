@@ -1,0 +1,17 @@
+name: Udi Rose
+title: Game Developer and Software Engineer
+description: >-
+  I am a Software engineer with 2.5 years of professional experience. I am a self-taught game developer and love building games that are both fun to play and well-crafted under the hood.
+avatar: '@assets/about/headshot.png'
+location: Chicago
+socialLinks:
+  - url: mailto:udirose@pm.me
+    icon: Email
+    label: Email
+  - url: https://github.com/udirose
+    icon: GitHub
+    label: GitHub
+  - url: https://linkedin.com/in/udirose
+    icon: LinkedIn
+    label: LinkedIn
+
