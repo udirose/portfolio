@@ -1,6 +1,7 @@
 import {
   Flower2,
   BookOpen,
+  Gamepad2,
   FileText,
   CodeXml,
   Mail,
@@ -64,7 +65,9 @@ export type IconName =
   | "Bluesky"
   | "Instagram"
   | "YouTube"
-  | "Email";
+  | "Email"
+  | "Link"
+  | "Gamepad2";
 
 export const iconMap: Record<IconName, any> = {
   Flower2,
@@ -98,6 +101,8 @@ export const iconMap: Record<IconName, any> = {
   Instagram,
   YouTube,
   Email: Mail,
+  Link,
+  Gamepad2,
 };
 
 export function getIcon(iconName: IconName) {
